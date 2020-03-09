@@ -1,4 +1,4 @@
-# weather-json
+# Weather Vue App
 
 ## Project setup
 ```
