@@ -2,7 +2,7 @@
   <div>
     <h1>My Weather App</h1>
     <button v-on:click="getWeatherData">Get Weather Data</button>
-    <div v-for="weatherData in getWeatherData" :key="weatherData.id" class="weather-data">
+    <div v-for="weatherData in weatherDataList" :key="weatherData.id" class="weather-data">
       <div class="weather-stats">
         <div>
           <span>{{weatherData.time}}</span>

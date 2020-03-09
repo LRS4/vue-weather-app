@@ -30,7 +30,12 @@ const routes = [
     component: About
   },
   {
-    path: '/weather/:location?', // : is param ? is optional
+    path: "/weather",
+    name: "weather",
+    component: Weather
+  },
+  {
+    path: '/weather/:location', // : is param ? is optional
     name: 'weather',
     component: Weather
   }
