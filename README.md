@@ -31,6 +31,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Vue Router Tutorial
 * [Getting Started](https://router.vuejs.org/guide/)
 * [Using Vue Router](https://vuejsdevelopers.com/2020/01/27/closer-look-at-vue-router/)
+* Essential
+
+### Vuex 
+*[Getting Started](https://vuex.vuejs.org/guide/)
+* Seems good for large complex applications
 
 ### Other uses
 * [Vue with Electron for Desktop Apps](https://auth0.com/blog/electron-tutorial-building-modern-desktop-apps-with-vue-js/)
