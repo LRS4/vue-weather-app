@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueRouter from  'vue-router'
 import Home from '../components/HelloWorld.vue'
-import Weather from '../components/Weather.vue'
 import About from '../components/About.vue'
+import Weather from '../components/Weather.vue'
+import WeatherItem from '../components/WeatherItem.vue'
+
 
 // 0. If using a module system (e.g. via vue-cli), call `Vue.use(VueRouter)`.
 Vue.use(VueRouter);
@@ -35,9 +37,9 @@ const routes = [
     component: Weather
   },
   {
-    path: '/weather/:location', // : is param ? is optional
-    name: 'weather',
-    component: Weather
+    path: '/weather/:id?', // : is param ? is optional
+    name: 'weatherItem',
+    component: WeatherItem
   }
 ]
 

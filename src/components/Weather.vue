@@ -8,7 +8,9 @@
           <span>{{weatherData.time}}</span>
         </div>
         <div>
-          <span class="location">{{weatherData.location}}</span>
+          <router-link v-bind:to="'/weather/' + weatherData.id">
+            <span class="location">{{weatherData.location}}</span>
+          </router-link>
         </div>
       </div>
       <div class="weather-icon">
@@ -87,5 +89,6 @@ button {
   background-color: #1aa832;
   color: white;
   border: 1px solid #ccc;
+  cursor: pointer;
 }
 </style>
